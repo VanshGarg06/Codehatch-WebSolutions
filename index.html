@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CodeHatch Websolutions | Automation, Software & Digital Solutions</title>
+<meta name="description" content="CodeHatch Websolutions builds websites, software, automation workflows and connected business systems: WhatsApp, CRM, ERP, cloud deployment and custom development.">
+<meta property="og:title" content="CodeHatch Websolutions | Build. Automate. Scale.">
+<meta property="og:description" content="We don't just build websites. We build digital systems.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"CodeHatch Websolutions","slogan":"Build. Automate. Scale.","description":"Technology solutions and software engineering partner."}</script>
+<style>
+:root{--bg:#070b16;--bg2:#0d1426;--tx:#e8edf8;--mu:#93a0bd;--ac:#4de2c5;--ac2:#7c6cff;--ln:rgba(255,255,255,.1);--gl:rgba(255,255,255,.05);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#17214a55,transparent),var(--bg);color:var(--tx);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{line-height:1.1;margin:0 0 .5em;letter-spacing:-.02em}
+h1{font-size:clamp(2.6rem,7vw,5rem)}h2{font-size:clamp(1.8rem,4vw,3rem)}h3{font-size:1.15rem}
+p{color:var(--mu);margin:0 0 1em}a{color:inherit}
+.w{max-width:1150px;margin:0 auto;padding:0 20px}.sec{padding:80px 0}
+.g{background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{color:var(--ac);font:600 .8rem/1 ui-monospace,monospace;letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px;display:block}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(7,11,22,.75);backdrop-filter:blur(14px);border-bottom:1px solid var(--ln)}
+nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:800;letter-spacing:.12em;text-decoration:none}.logo b{color:var(--ac)}
+.links{display:flex;gap:26px;align-items:center}.links a{text-decoration:none;color:var(--mu);font-size:.95rem}.links a:hover,.links a.on{color:var(--tx)}
+.btn{display:inline-block;border:0;cursor:pointer;font:600 .95rem inherit;font-family:inherit;padding:14px 24px;border-radius:12px;text-decoration:none;color:#04121a;background:linear-gradient(90deg,var(--ac),#7be7ff);transition:transform .2s,box-shadow .2s;min-height:44px}
+.btn:hover{box-shadow:0 8px 30px #4de2c540}.btn.s{background:var(--gl);color:var(--tx);border:1px solid var(--ln)}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+#bg{display:none;background:none;border:1px solid var(--ln);border-radius:10px;width:44px;height:44px;cursor:pointer;color:var(--tx)}
+#bg span{display:block;width:20px;height:2px;background:currentColor;margin:5px auto;transition:.3s}
+#bg[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}#bg[aria-expanded=true] span:nth-child(2){opacity:0}#bg[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:30px;align-items:center;min-height:calc(100vh - 68px);padding:40px 0}
+.hero canvas,.eco canvas{width:100%;aspect-ratio:1;display:block}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin:26px 0}
+.trust{font:.85rem ui-monospace,monospace;color:var(--mu);letter-spacing:.08em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.card{background:var(--gl);border:1px solid var(--ln);border-radius:18px;padding:24px;backdrop-filter:blur(8px);transition:transform .15s,border-color .3s;transform-style:preserve-3d}
+.card:hover{border-color:#4de2c566}.card .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#4de2c533,#7c6cff33);margin-bottom:14px;font-size:1.2rem}
+.card ul{margin:0;padding:0;list-style:none;color:var(--mu);font-size:.88rem}.card li:before{content:"→ ";color:var(--ac)}
+.tag{display:inline-block;font-size:.72rem;padding:3px 10px;border-radius:99px;border:1px solid var(--ln);color:var(--mu);margin:0 6px 6px 0}
+.flow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:20px 0;font-weight:600}.flow i{font-style:normal;color:var(--ac)}.flow span{padding:8px 14px;border:1px solid var(--ln);border-radius:10px;background:var(--gl)}
+.band{background:linear-gradient(135deg,#4de2c514,#7c6cff1f);border:1px solid var(--ln);border-radius:24px;padding:48px 32px;text-align:center}
+.tl{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;position:relative}
+.tl .st{border-top:2px solid var(--ln);padding-top:16px;position:relative}.tl .st:before{content:"";position:absolute;top:-7px;left:0;width:12px;height:12px;border-radius:50%;background:var(--ac);box-shadow:0 0 12px var(--ac)}
+.tl .st b{font:700 .8rem ui-monospace,monospace;color:var(--ac)}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+.flt{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.flt button{background:var(--gl);border:1px solid var(--ln);color:var(--mu);padding:10px 18px;border-radius:99px;cursor:pointer;font:inherit;min-height:44px}.flt button[aria-pressed=true]{color:#04121a;background:var(--ac);border-color:var(--ac)}
+.pv{height:140px;border-radius:12px;margin-bottom:16px;background:linear-gradient(135deg,#4de2c522,#7c6cff33);border:1px solid var(--ln);display:grid;place-items:center;font:700 .85rem ui-monospace,monospace;color:var(--mu);overflow:hidden;position:relative}
+dialog{background:var(--bg2);color:var(--tx);border:1px solid var(--ln);border-radius:20px;max-width:640px;width:calc(100% - 32px);padding:30px}dialog::backdrop{background:rgba(0,0,0,.7)}
+label{display:block;font-size:.85rem;color:var(--mu);margin-bottom:14px}
+input,select,textarea{width:100%;margin-top:6px;background:var(--gl);border:1px solid var(--ln);border-radius:10px;padding:12px;color:var(--tx);font:inherit;min-height:44px}
+select option{background:var(--bg2)}input[aria-invalid=true],select[aria-invalid=true],textarea[aria-invalid=true]{border-color:#ff6b81}
+.er{color:#ff8fa0;font-size:.78rem;display:block;min-height:1em}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.ok{padding:16px;border-radius:12px;background:#4de2c522;border:1px solid var(--ac);margin-top:14px}
+footer{border-top:1px solid var(--ln);padding:60px 0 30px;margin-top:40px}.fc{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+footer h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.14em;color:var(--ac)}footer a{display:block;color:var(--mu);text-decoration:none;font-size:.9rem;margin-bottom:6px}footer a:hover{color:var(--tx)}
+.sm{font-size:.8rem;color:var(--mu);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid var(--ln);margin-top:30px;padding-top:20px}.sm a{display:inline;margin-left:16px}
+.eco{max-width:640px;margin:0 auto}
+@media(max-width:860px){.links{display:none;position:absolute;top:68px;left:0;right:0;flex-direction:column;background:var(--bg2);padding:20px;border-bottom:1px solid var(--ln);align-items:stretch;text-align:center}.links.open{display:flex}.links a{padding:12px}#bg{display:block}.hero{grid-template-columns:1fr;min-height:0}.hero canvas{max-width:380px;margin:0 auto}.tl{grid-template-columns:1fr}.tl .st{border-top:0;border-left:2px solid var(--ln);padding:0 0 14px 18px}.tl .st:before{top:2px;left:-7px}.fc{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr}.sec{padding:56px 0}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style></head>
+<body>
+<a href="#main" style="position:absolute;left:-999px" onfocus="this.style.left='8px'" onblur="this.style.left='-999px'">Skip to content</a>
+<header><nav class="w" aria-label="Main">
+<a class="logo" href="#/">CODE<b>HATCH</b></a>
+<button id="bg" aria-label="Toggle menu" aria-expanded="false" aria-controls="lk"><span></span><span></span><span></span></button>
+<div class="links" id="lk"><a href="#/" data-r="home">Home</a><a href="#/services" data-r="services">Services</a><a href="#/projects" data-r="projects">Projects</a><a href="#/about" data-r="about">About Us</a><a href="#/contact" data-r="contact">Contact</a><a class="btn" href="#/contact">Start a Project</a></div>
+</nav></header>
+<main id="main"></main>
+<footer><div class="w"><div class="fc">
+<div><h3>Company</h3><a href="#/about">About Us</a><a href="#/projects">Projects</a><a href="#/contact">Contact</a></div>
+<div><h3>Services</h3><a href="#/services">Automation</a><a href="#/services">Websites</a><a href="#/services">CRM</a><a href="#/services">ERP</a><a href="#/services">Cloud</a><a href="#/services">SEO</a><a href="#/services">WordPress</a><a href="#/services">Software Development</a></div>
+<div><h3>Development</h3><a href="#/services">Go / Golang</a><a href="#/services">APIs</a><a href="#/services">Web Applications</a><a href="#/services">Outsourcing</a><a href="#/services">Consultancy</a></div>
+<div><h3>Connect</h3><a href="mailto:hello@example.com">Email</a><a href="#/contact">WhatsApp</a><a href="#">LinkedIn</a><a href="#">Instagram</a><a href="#">GitHub</a></div>
+</div><div class="sm"><span>© CodeHatch Websolutions. All rights reserved.</span><span><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></span></div></div></footer>
+<script>
+/* ===== EDITABLE CONTENT ===== */
+const WA="910000000000"; // replace with real WhatsApp number (country code + number)
+const SERVICES=[
+["⚙️","Business Automation","Workflows that remove repetitive manual work and connect your processes.",["Workflow automation","Notifications","Data synchronization","Automated follow-ups","API integrations"]],
+["🌐","Websites & Web Applications","Modern, responsive, high-performance websites and web apps.",["Business websites","Web applications","Performance-first builds"]],
+["💬","WhatsApp Business Integration","Business workflows built around WhatsApp.",["Notifications","Lead communication","Automated messages","CRM + WhatsApp"]],
+["📇","CRM Systems","Custom CRMs for leads, customers, pipelines, tasks and communication.",["Sales pipelines","Follow-ups","Tasks","Communication"]],
+["🧩","ERP & Connected Systems","Unify multiple CRMs and processes into one operational platform.",["Multiple CRMs → Central ERP","Unified operations"]],
+["🎯","Lead Generation","Capture, qualify and manage leads with technology.",["Landing pages","Lead qualification","CRM integration","Conversion optimization"]],
+["📈","SEO & Digital Growth","Technical and business-focused SEO.",["Technical & on-page SEO","Local SEO","Content strategy","Performance"]],
+["🔧","WordPress Development","Professional WordPress sites for businesses and professionals.",["Custom sites & Elementor","Theme & plugins","Security & maintenance"]],
+["🖥️","Hosting & Deployment","Reliable hosting on Hostinger and cloud platforms.",["Domains & SSL","Server configuration","App & database deployment"]],
+["☁️","Cloud Deployment","Deploy and manage applications on modern cloud infrastructure.",["Containers","CI/CD","Monitoring","Scaling"]],
+["🛠️","Custom Software Development","Software built around your requirements.",["Backend systems & APIs","Dashboards","Internal tools"]],
+["🐹","Go / Golang Development","Fast, reliable backend systems in Go.",["Go APIs & microservices","REST APIs","Cloud-native apps"]],
+["🤝","Software Outsourcing","Delegate engineering work to a dedicated team.",["Backend & frontend","Bug fixing & features","Testing & maintenance"]],
+["🧭","Technology Consultancy","Guidance for founders, professionals and engineers.",["Architecture & stack selection","Cloud & automation strategy","CRM/ERP architecture"]]];
+const TECH=[["Frontend","React, JavaScript, TypeScript"],["Backend","Node.js, Go, APIs"],["Databases","PostgreSQL, MySQL and others"],["Infrastructure","Cloud, Docker, hosting & deployment"],["Business Systems","CRM, ERP, WhatsApp, automation"]];
+const PROJECTS=[ // placeholders: replace with real projects
+{n:"Sample Automation Suite",c:"Automation",d:"Placeholder: workflow automation connecting forms, email and messaging.",t:["Node.js","APIs"],f:["Triggers","Notifications","Data sync"]},
+{n:"Sample Sales CRM",c:"CRM",d:"Placeholder: custom CRM with pipeline and follow-up tracking.",t:["React","PostgreSQL"],f:["Pipeline","Tasks","Reports"]},
+{n:"Sample Operations ERP",c:"ERP",d:"Placeholder: central platform unifying several business tools.",t:["Go","PostgreSQL"],f:["Modules","Roles","Dashboards"]},
+{n:"Sample Web Platform",c:"Web",d:"Placeholder: responsive web application with a REST backend.",t:["React","Node.js"],f:["Auth","Admin panel","API"]},
+{n:"Sample Mobile App",c:"Mobile",d:"Placeholder: cross-platform mobile app concept.",t:["JavaScript"],f:["Notifications","Offline-ready"]},
+{n:"Sample Cloud Deployment",c:"Cloud",d:"Placeholder: containerised app with CI/CD and monitoring.",t:["Docker","CI/CD"],f:["Pipelines","Monitoring","Scaling"]},
+{n:"Sample Intelligent Assistant",c:"AI",d:"Placeholder: AI-assisted workflow concept.",t:["APIs","Python"],f:["Classification","Automation"]}];
+const STEPS=[["Discover","Understand the business, problem and goals."],["Design","Design the right technical and business solution."],["Build","Develop the website, application, automation or system."],["Integrate","Connect APIs, WhatsApp, CRM, ERP and other systems."],["Deploy","Move to production and configure infrastructure."],["Scale","Monitor, improve and expand as the business grows."]];
+const NODES=["Website","Leads","WhatsApp","CRM","ERP","Cloud","Analytics"];
+const ECO=["Website","WhatsApp","CRM","ERP","Automation","Lead Gen","SEO","Cloud","APIs","Apps","Analytics"];
+/* ===== HELPERS ===== */
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const RM=matchMedia("(prefers-reduced-motion:reduce)").matches;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const svcCard=s=>`<article class="card rv tilt"><div class="ic" aria-hidden="true">${s[0]}</div><h3>${s[1]}</h3><p>${s[2]}</p><ul>${s[3].map(x=>`<li>${x}</li>`).join("")}</ul></article>`;
+const cta=(a,b,btns)=>`<section class="sec"><div class="w"><div class="band rv"><h2>${a}</h2><p>${b}</p><div class="cta" style="justify-content:center">${btns}</div></div></div></section>`;
+let raf=[];
+function net(cv,labels,center){const x=cv.getContext("2d");let m={x:0,y:0},t=0,vis=true;
+ new IntersectionObserver(e=>vis=e[0].isIntersecting).observe(cv);
+ cv.addEventListener("pointermove",e=>{const r=cv.getBoundingClientRect();m.x=(e.clientX-r.left)/r.width-.5;m.y=(e.clientY-r.top)/r.height-.5});
+ function size(){const d=Math.min(devicePixelRatio||1,2),w=cv.clientWidth;cv.width=w*d;cv.height=w*d;x.setTransform(d,0,0,d,0,0)}
+ size();addEventListener("resize",size);
+ function draw(){if(vis&&!document.hidden){const W=cv.clientWidth,c=W/2,R=W*.36,n=labels.length;x.clearRect(0,0,W,W);
+  const P=labels.map((l,i)=>{const a=t*.15+i/n*6.283,z=Math.sin(a*1+i);return{l,x:c+Math.cos(a)*R+m.x*30*(1+z),y:c+Math.sin(a)*R*.8+m.y*30*(1+z),z}});
+  const cx=c+m.x*16,cy=c+m.y*16;
+  const g=x.createRadialGradient(cx,cy,0,cx,cy,W*.3);g.addColorStop(0,"rgba(124,108,255,.35)");g.addColorStop(1,"transparent");x.fillStyle=g;x.fillRect(0,0,W,W);
+  P.forEach((p,i)=>{x.strokeStyle="rgba(77,226,197,.28)";x.lineWidth=1;x.beginPath();x.moveTo(cx,cy);x.lineTo(p.x,p.y);x.stroke();
+   if(!center){const q=P[(i+1)%n];x.beginPath();x.moveTo(p.x,p.y);x.lineTo(q.x,q.y);x.strokeStyle="rgba(124,108,255,.2)";x.stroke()}
+   const k=(t*.5+i*.13)%1;x.fillStyle="#7be7ff";x.beginPath();x.arc(cx+(p.x-cx)*k,cy+(p.y-cy)*k,2,0,6.283);x.fill()});
+  P.forEach(p=>{const r=6+p.z*1.5+4;x.shadowColor="#4de2c5";x.shadowBlur=14;x.fillStyle="#4de2c5";x.beginPath();x.arc(p.x,p.y,r*.6,0,6.283);x.fill();x.shadowBlur=0;
+   x.fillStyle="#e8edf8";x.font="600 "+Math.max(11,W/38)+"px system-ui";x.textAlign="center";x.fillText(p.l,p.x,p.y-r-4)});
+  x.shadowColor="#7c6cff";x.shadowBlur=30;x.fillStyle="#0d1426";x.strokeStyle="#4de2c5";x.lineWidth=2;x.beginPath();x.arc(cx,cy,center?W*.09:W*.06,0,6.283);x.fill();x.stroke();x.shadowBlur=0;
+  x.fillStyle="#e8edf8";x.font="800 "+(center?W/50:W/60)+"px system-ui";x.textAlign="center";x.fillText(center||"CODEHATCH",cx,cy+4);
+  if(!RM)t+=.016}raf.push(requestAnimationFrame(draw))}draw()}
+function after(){raf.forEach(cancelAnimationFrame);raf=[];
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});$$(".rv").forEach(e=>io.observe(e));
+ if(!RM&&matchMedia("(hover:hover)").matches){$$(".tilt").forEach(c=>{c.onpointermove=e=>{const r=c.getBoundingClientRect(),px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(700px) rotateY(${px*10}deg) rotateX(${-py*10}deg)`};c.onpointerleave=()=>c.style.transform=""});
+  $$(".btn").forEach(b=>{b.onpointermove=e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.15}px,${(e.clientY-r.top-r.height/2)*.2}px)`};b.onpointerleave=()=>b.style.transform=""})}
+ const h=$("#hc");if(h)net(h,NODES);const e=$("#ec");if(e)net(e,ECO,"CODEHATCH");
+ $$("[data-n]").forEach(el=>{const to=+el.dataset.n;if(RM){el.textContent=to;return}const o=new IntersectionObserver(a=>{if(a[0].isIntersecting){let v=0;const s=setInterval(()=>{v++;el.textContent=v;if(v>=to)clearInterval(s)},60);o.disconnect()}});o.observe(el)})}
+/* ===== PAGES ===== */
+const timeline=()=>`<div class="tl">${STEPS.map((s,i)=>`<div class="st rv" style="transition-delay:${i*90}ms"><b>0${i+1}</b><h3>${s[0]}</h3><p>${s[1]}</p></div>`).join("")}</div>`;
+const tech=()=>`<div class="grid">${TECH.map(t=>`<div class="card rv"><h3>${t[0]}</h3><p style="margin:0">${t[1]}</p></div>`).join("")}</div>`;
+const pages={
+home:()=>`<div class="w"><section class="hero"><div><span class="eyebrow">CodeHatch Websolutions</span><h1><span class="g">Build. Automate. Scale.</span></h1><p style="font-size:1.15rem;max-width:34em">We build websites, software, automation workflows and connected business systems that help companies work smarter and grow faster.</p><div class="cta"><a class="btn" href="#/contact">Let's Build Something</a><a class="btn s" href="#/services">Explore Our Services</a></div><div class="trust">Web • Automation • CRM • ERP • Cloud • Growth</div></div><canvas id="hc" role="img" aria-label="Animated network of connected business systems"></canvas></section></div>
+<section class="sec"><div class="w"><span class="eyebrow">Digital systems</span><h2 class="rv">From individual workflows to <span class="g">complete business ecosystems.</span></h2><p class="rv" style="max-width:44em">We don't just build websites. We build digital systems: CodeHatch designs, builds, integrates, deploys and maintains them around your requirements.</p>
+<div class="grid">${[["⚙️","Automate repetitive work","We turn repetitive processes into automated workflows."],["🔗","Connect your business systems","We connect the tools your business already uses."],["🎯","Generate and manage leads","Capture, qualify and follow up, all inside your CRM."],["🚀","Deploy and scale your applications","Production setup, monitoring and room to grow."]].map(s=>svcCard([s[0],s[1],s[2],[]])).join("")}</div></div></section>
+<section class="sec"><div class="w"><span class="eyebrow">Services</span><h2 class="rv">What We Build</h2><div class="grid">${SERVICES.slice(0,6).map(svcCard).join("")}</div><p class="cta"><a class="btn s" href="#/services">See all services</a></p></div></section>
+<section class="sec"><div class="w eco"><h2 class="rv" style="text-align:center">One Technology Partner. <span class="g">Multiple Business Systems.</span></h2><p style="text-align:center">Instead of managing multiple disconnected vendors, build your digital ecosystem with one technology partner.</p><canvas id="ec" role="img" aria-label="CodeHatch connected to website, WhatsApp, CRM, ERP, automation, SEO, cloud, APIs and analytics"></canvas></div></section>
+<section class="sec"><div class="w"><span class="eyebrow">Process</span><h2 class="rv">How We Work</h2>${timeline()}</div></section>
+<section class="sec"><div class="w"><span class="eyebrow">Technology</span><h2 class="rv">Built on modern technologies</h2>${tech()}</div></section>
+${cta("Your business has a process.<br><span class='g'>We build the technology behind it.</span>","From websites and WhatsApp automation to CRM, ERP, custom software and cloud deployment, CodeHatch Websolutions helps businesses turn ideas and processes into connected digital systems.",`<a class="btn" href="#/contact">Start a Project</a><a class="btn s" href="#/services">Explore Our Services</a>`)}`,
+services:()=>`<section class="sec"><div class="w"><span class="eyebrow">Services</span><h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">What We Build</h1><p style="max-width:42em">From a single website to a complete business operating system.</p>
+<div class="flow rv" aria-label="Multiple CRMs to central ERP to unified business operations"><span>Multiple CRMs</span><i>→</i><span>Central ERP</span><i>→</i><span>Unified Business Operations</span></div>
+<div class="grid">${SERVICES.map(svcCard).join("")}</div></div></section>
+<section class="sec"><div class="w"><div class="band rv" style="text-align:left"><span class="eyebrow">For engineers & teams</span><h2>Have development work to delegate?</h2><p>Focus on your core product while CodeHatch handles the engineering work behind the scenes: backend, frontend, APIs, bug fixing, features, integrations, testing, deployment and maintenance.</p><a class="btn" href="#/contact">Delegate Your Next Project</a></div></div></section>
+${cta("Have a process that wastes time?<br><span class='g'>Let's automate it.</span>","Tell us how your team works today.",`<a class="btn" href="#/contact">Talk to Us</a><a class="btn s" href="#/contact">Start a Project</a>`)}`,
+projects:()=>`<section class="sec"><div class="w"><span class="eyebrow">Projects</span><h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">Representative work</h1><p>Placeholder projects: replace the entries in the PROJECTS list with real work.</p>
+<div class="flt" role="group" aria-label="Filter projects">${["All","Web","Automation","CRM","ERP","Mobile","Cloud","AI"].map((f,i)=>`<button aria-pressed="${i==0}" data-f="${f}">${f}</button>`).join("")}</div><div class="grid" id="pg"></div></div></section>
+<dialog id="dl" aria-labelledby="dt"><div id="db"></div><p style="margin-top:20px"><button class="btn s" id="dx">Close</button></p></dialog>
+${cta("Need extra engineering capacity?","Delegate the development. Keep your team focused on the product.",`<a class="btn" href="#/contact">Discuss Your Project</a>`)}`,
+about:()=>`<section class="sec"><div class="w"><span class="eyebrow">About Us</span><h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">We Build Technology <span class="g">That Works For Your Business.</span></h1><p style="max-width:44em">CodeHatch Websolutions is a technology solutions agency focused on building practical digital systems for businesses, professionals and technology teams. Engineering-first, business-focused, built on scalable architecture and modern technologies, for long-term partnerships.</p>
+<div class="grid" style="margin:30px 0"><div class="card rv"><h3>Our Mission</h3><p style="margin:0">Make technology accessible, practical and useful for businesses.</p></div><div class="card rv"><h3>Our Approach</h3><p style="margin:0">Understand the problem first, then choose the technology.</p></div></div>
+<h2 class="rv">What Makes Us Different</h2><div class="grid">${[["Business First","We focus on the actual business problem."],["Engineering Driven","Solutions are built with maintainability and scalability in mind."],["Connected Systems","We connect websites, CRM, ERP, communication and automation."],["Long-Term Support","We can continue supporting and improving systems after launch."]].map(s=>svcCard(["◆",s[0],s[1],[]])).join("")}</div></div></section>
+<section class="sec"><div class="w"><h2 class="rv">Our story</h2><p>Add your real company milestones here.</p>${timeline()}</div></section>`,
+contact:()=>`<section class="sec"><div class="w" style="max-width:820px"><span class="eyebrow">Contact</span><h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">Let's Build <span class="g">Something Useful.</span></h1><p>Have an idea, a process that needs automation, a website to build, or software work you want to delegate? Tell us what you're working on.</p>
+<form id="cf" class="card" novalidate><div class="fg">
+<label>Full Name<input name="name" required autocomplete="name"><span class="er"></span></label>
+<label>Company / Organization<input name="company" autocomplete="organization"><span class="er"></span></label>
+<label>Email<input name="email" type="email" required autocomplete="email"><span class="er"></span></label>
+<label>Phone / WhatsApp<input name="phone" type="tel" required autocomplete="tel"><span class="er"></span></label>
+<label>Service Required<select name="service" required><option value="">Select…</option>${["Website","Web Application","WhatsApp Integration","Automation","CRM","ERP","Lead Generation","SEO","WordPress","Hosting","Cloud Deployment","Go Development","Software Outsourcing","Consultancy","Other"].map(o=>`<option>${o}</option>`).join("")}</select><span class="er"></span></label>
+<label>Budget Range<select name="budget"><option value="">Prefer to discuss</option><option>Under ₹50k</option><option>₹50k–₹2L</option><option>₹2L–₹10L</option><option>₹10L+</option></select><span class="er"></span></label></div>
+<label>Project Description<textarea name="msg" rows="5" required minlength="20"></textarea><span class="er"></span></label>
+<label>Preferred Contact Method<select name="method"><option>Email</option><option>WhatsApp</option><option>Phone call</option></select></label>
+<button class="btn" type="submit">Send Enquiry</button><div id="fs" role="status" aria-live="polite"></div></form>
+<div class="band rv" style="margin-top:30px"><h3>Prefer WhatsApp?</h3><a class="btn s" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent("Hi CodeHatch, I'd like to discuss a project.")}">Chat on WhatsApp</a></div></div></section>`};
+/* ===== BEHAVIOUR ===== */
+function projects(){const g=$("#pg");if(!g)return;
+ const show=f=>{g.innerHTML=PROJECTS.map((p,i)=>({p,i})).filter(o=>f=="All"||o.p.c==f).map(({p,i})=>`<article class="card tilt"><div class="pv" aria-hidden="true">${esc(p.c)} · mockup</div><span class="tag">${esc(p.c)}</span><h3>${esc(p.n)}</h3><p>${esc(p.d)}</p><div>${p.t.map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div><ul style="margin:10px 0 16px;padding:0;list-style:none;font-size:.85rem;color:var(--mu)">${p.f.map(x=>`<li>✓ ${esc(x)}</li>`).join("")}</ul><button class="btn s" data-p="${i}">View Project</button></article>`).join("")||"<p>No projects in this category yet.</p>";after2()};
+ const after2=()=>{if(!RM&&matchMedia("(hover:hover)").matches)$$("#pg .tilt").forEach(c=>{c.onpointermove=e=>{const r=c.getBoundingClientRect();c.style.transform=`perspective(700px) rotateY(${((e.clientX-r.left)/r.width-.5)*10}deg) rotateX(${-((e.clientY-r.top)/r.height-.5)*10}deg)`};c.onpointerleave=()=>c.style.transform=""});
+  $$("[data-p]").forEach(b=>b.onclick=()=>{const p=PROJECTS[b.dataset.p];$("#db").innerHTML=`<span class="tag">${esc(p.c)}</span><h2 id="dt" style="font-size:1.8rem">${esc(p.n)}</h2><h3>Problem</h3><p>[Describe the real client problem here.]</p><h3>Solution</h3><p>${esc(p.d)}</p><h3>Technology</h3><p>${p.t.map(esc).join(", ")}</p><h3>Result</h3><p>[Add verified results here. No claims until real.]</p>`;$("#dl").showModal()})};
+ $$(".flt button").forEach(b=>b.onclick=()=>{$$(".flt button").forEach(x=>x.setAttribute("aria-pressed",x==b));show(b.dataset.f)});
+ $("#dx").onclick=()=>$("#dl").close();show("All")}
+function form(){const f=$("#cf");if(!f)return;
+ f.onsubmit=async e=>{e.preventDefault();let bad=0;
+  $$("[required]",f).forEach(el=>{const er=el.parentNode.querySelector(".er");let m="";
+   if(!el.value.trim())m="Required";else if(el.type=="email"&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value))m="Enter a valid email";else if(el.type=="tel"&&el.value.replace(/\D/g,"").length<8)m="Enter a valid number";else if(el.name=="msg"&&el.value.trim().length<20)m="Please add a little more detail";
+   el.setAttribute("aria-invalid",!!m);er.textContent=m;bad+=!!m});
+  const s=$("#fs");if(bad){s.innerHTML=`<p class="er" style="margin-top:12px">Please fix the highlighted fields.</p>`;$("[aria-invalid=true]",f).focus();return}
+  /* Connect to your own backend endpoint (no keys in frontend code), e.g. POST /api/enquiry */
+  const ENDPOINT=null;
+  try{if(ENDPOINT){const r=await fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(Object.fromEntries(new FormData(f)))});if(!r.ok)throw 0}
+   s.innerHTML=`<div class="ok">Thanks. Your enquiry is ready.${ENDPOINT?"":" (Demo mode: connect a backend endpoint to receive submissions.)"}</div>`;f.reset()}
+  catch{s.innerHTML=`<p class="er" style="margin-top:12px">Something went wrong. Please try WhatsApp or email instead.</p>`}}}
+function render(){const r=(location.hash.replace(/^#\/?/,"")||"home").split("/")[0],k=pages[r]?r:"home";
+ const m=$("#main");m.style.opacity=0;setTimeout(()=>{m.innerHTML=pages[k]();m.style.opacity=1;scrollTo(0,0);after();projects();form();
+  $$(".links a[data-r]").forEach(a=>a.classList.toggle("on",a.dataset.r==k));$("#lk").classList.remove("open");$("#bg").setAttribute("aria-expanded",false);
+  const T={home:"CodeHatch Websolutions | Automation, Software & Digital Solutions",services:"Services | CodeHatch Websolutions",projects:"Projects | CodeHatch Websolutions",about:"About Us | CodeHatch Websolutions",contact:"Contact | CodeHatch Websolutions"};document.title=T[k]},RM?0:180)}
+$("#bg").onclick=()=>{const o=$("#lk").classList.toggle("open");$("#bg").setAttribute("aria-expanded",o)};
+$("#main").style.transition="opacity .18s";
+addEventListener("hashchange",render);addEventListener("keydown",e=>{if(e.key=="Escape"){$("#lk").classList.remove("open");$("#bg").setAttribute("aria-expanded",false)}});
+render();
+</script></body></html>
